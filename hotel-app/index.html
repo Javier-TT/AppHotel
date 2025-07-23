@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hoteles</title>
+  <link rel="stylesheet" href="src/css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Catálogo de Hoteles</h1>
+    <div id="filtros">
+      <label for="categoria">Filtrar por categoría:</label>
+      <select id="categoria">
+        <option value="all">Todas</option>
+        <option value="5">★★★★★</option>
+        <option value="4">★★★★</option>
+        <option value="3">★★★</option>
+        <option value="2">★★</option>
+        <option value="1">★</option>
+      </select>
+    </div>
+    <p id="contador"></p>
+  </header>
+
+  <main id="contenedor-hoteles"></main>
+
+  <script src="/src/js/app.js"></script>
+</body>
+</html>
